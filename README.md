@@ -6,3 +6,10 @@ Written in Matlab
 
 Designed and implemented two convolutional neural networks, using the deep learning toolbox in matlab. The data used was the famous Oxford-17 flower dataset with 17 different species of flowers and 80 images per class. 
 Using my own CNN developed from scratch, I trained one classification model that achieved a 40% mean classification accuracy (classnet.mat) and a segmentationmodel that achieved a mean accuracy of 87.26% and a weighted IoU score of 77.72%. The segmentation model was only based on the daffodil class.
+
+The code for the classification mode is in classification.m and the code for the segmentation model is in segmentation.m.
+The dataset for the classification CNN is 17flowers and the dataset for segmentation is daffodilSeg.
+
+The other two folders contain output and evaluation images for the segmentation model.
+
+You can load the trained classification or segmentation model (.mat files) to test the networks.
